@@ -1,0 +1,84 @@
+{
+  "Projects": [
+    {
+      "id": "1",
+      "name": "Project 1",
+      "description": "This is project 1",
+      "users": [
+        {
+          "id": "1",
+          "name": "John Doe",
+          "role": "Frontend Developer"
+        },
+        {
+          "id": "2",
+          "name": "Jane Smith",
+          "role": "Backend Developer"
+        },
+        {
+          "id": "3",
+          "name": "Alice Johnson",
+          "role": "Project Manager"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Project 2",
+      "description": "This is project 2",
+      "users": [
+        {
+          "id": "4",
+          "name": "Chris Brown",
+          "role": "Data Scientist"
+        },
+        {
+          "id": "5",
+          "name": "Emily White",
+          "role": "UI/UX Designer"
+        },
+        {
+          "id": "6",
+          "name": "Robert Green",
+          "role": "DevOps Engineer"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Project 3",
+      "description": "This is project 3",
+      "users": [
+        {
+          "id": "7",
+          "name": "Tom Black",
+          "role": "Frontend Developer"
+        },
+        {
+          "id": "8",
+          "name": "Sophia Brown",
+          "role": "Backend Developer"
+        },
+        {
+          "id": "9",
+          "name": "Olivia White",
+          "role": "Project Manager"
+        }
+      ]
+    }
+  ],
+  "Emails": [
+    {
+      "id": "1",
+      "email": "Yaswanth@gmail.com"
+    },
+    {
+      "id": "2",
+      "email": "yaswanthsai_valluru@srmap.edu.in"
+    },
+    {
+      "id": "7381",
+      "email": "sathu@gmail.com"
+    }
+  ]
+}
