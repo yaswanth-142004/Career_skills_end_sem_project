@@ -188,29 +188,6 @@
           "role": "AI Specialist"
         }
       ]
-    },
-    {
-      "id": "9",
-      "name": "Project 9",
-      "description": "This is project 9",
-      "status": false,
-      "users": [
-        {
-          "id": "25",
-          "name": "Elijah Brown",
-          "role": "Data Analyst"
-        },
-        {
-          "id": "26",
-          "name": "Sophia Blue",
-          "role": "Backend Developer"
-        },
-        {
-          "id": "27",
-          "name": "Mason Grey",
-          "role": "Business Analyst"
-        }
-      ]
     }
   ],
   "Emails": [
@@ -229,6 +206,10 @@
     {
       "id": "8305",
       "email": "yaswanthsai_valluru@srmap.edu.in"
+    },
+    {
+      "id": "bcf6",
+      "email": "hello@gmail.com"
     }
   ]
 }

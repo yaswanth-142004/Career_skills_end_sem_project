@@ -15,8 +15,8 @@ const Resources = () => {
       .then((response) => {
         const allProjects = response.data;
         // Divide projects
-        setRunningProjects(allProjects.slice(0, 3)); // First 3 as running
-        setCompletedProjects(allProjects.slice(3)); // Remaining 7 as completed
+        setRunningProjects(allProjects.filter((allProjects)=>allProjects.status)); // First 3 as running
+        setCompletedProjects(allProjects.filter((allProjects)=>allProjects.status)); // Remaining 7 as completed
         setProjects(allProjects);
       })
       .catch((error) => {

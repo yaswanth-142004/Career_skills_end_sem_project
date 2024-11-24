@@ -1,5 +1,6 @@
 import React from 'react'
-import backgroundImage from '../assets/financial-bg.jpg' 
+import backgroundImage from '../assets/financial-bg.jpg'
+import ceoImage from '../assets/ceo.jpg' // Import the CEO image
 
 const About = () => {
   return (
@@ -14,6 +15,23 @@ const About = () => {
         <h1 className="text-4xl font-bold mb-8 text-gray-800 text-center">
           About Horizon Financial Solutions
         </h1>
+
+        {/* CEO Section */}
+        <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-xl p-6 mb-8 border border-gray-300 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+          <img 
+            src={ceoImage} 
+            alt="CEO" 
+            className="w-32 h-32 rounded-full mb-4 md:mb-0 md:mr-6 border-4 border-lime-600"
+          />
+          <div>
+            <h2 className="text-2xl font-semibold mb-2 text-lime-700">Our CEO</h2>
+            <p className="text-gray-700 text-lg">
+              Yaswanth sai , our visionary leader, has over two decades of experience in financial services. 
+              His innovative approach and commitment to excellence have been instrumental in Horizon's 
+              success and growth.
+            </p>
+          </div>
+        </div>
 
         {/* Our Story Section */}
         <div className="bg-white shadow-lg rounded-xl p-6 mb-8 border border-gray-300 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
@@ -67,12 +85,12 @@ const About = () => {
             Our Expertise
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              'Wealth Management',
-              'Investment Strategy',
-              'Retirement Planning',
-              'Corporate Financial Advisory',
-              'Risk Management',
+            {[ 
+              'Wealth Management', 
+              'Investment Strategy', 
+              'Retirement Planning', 
+              'Corporate Financial Advisory', 
+              'Risk Management', 
               'Digital Financial Technologies'
             ].map((service, index) => (
               <div 
