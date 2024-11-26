@@ -15,14 +15,14 @@ const Login = () => {
       // Admin credentials check
       if (username === 'admin' && password === 'adminpass') {
         localStorage.setItem('userRole', 'admin');
-        navigate('/resources');
+        navigate('/home');
       } else {
         alert('Invalid admin credentials');
       }
     } else {
       // Guest login
       localStorage.setItem('userRole', 'guest');
-      navigate('/resources');
+      navigate('/home');
     }
   };
 

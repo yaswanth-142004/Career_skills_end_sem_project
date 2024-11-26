@@ -10,19 +10,15 @@ const Resources = () => {
 
   // Fetch projects data
   useEffect(() => {
-    axios
-      .get("http://localhost:3000/Projects") // Fetch projects from JSON-server
+    axios.get("http://localhost:3000/Projects")
       .then((response) => {
-        const allProjects = response.data;
-        // Divide projects
-        setRunningProjects(allProjects.filter((allProjects)=>allProjects.status)); // First 3 as running
-        setCompletedProjects(allProjects.filter((allProjects)=>allProjects.status)); // Remaining 7 as completed
-        setProjects(allProjects);
+        const projects = response.data;
+        setRunningProjects(projects.filter((project) => !project.status));
+        setCompletedProjects(projects.filter((project) => project.status));
       })
-      .catch((error) => {
-        console.error("Error fetching projects:", error);
-      });
+      .catch((error) => console.error("Error fetching projects:", error));
   }, []);
+
 
   return (
     <div className="bg-gray-50 min-h-screen p-6">

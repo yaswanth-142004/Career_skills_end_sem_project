@@ -2,214 +2,105 @@
   "Projects": [
     {
       "id": "1",
-      "name": "Project 1",
-      "description": "This is project 1",
-      "status": false,
+      "name": "E-Commerce Platform Redesign",
+      "description": "Complete overhaul of the customer-facing e-commerce platform with modern UI/UX implementation",
+      "status": true,
       "users": [
         {
           "id": "1",
-          "name": "John Doe",
+          "name": "Alexander Mitchell",
           "role": "Frontend Developer"
         },
         {
           "id": "2",
-          "name": "Jane Smith",
+          "name": "Sarah Thompson",
           "role": "Backend Developer"
         },
         {
           "id": "3",
-          "name": "Alice Johnson",
+          "name": "Rachel Anderson",
           "role": "Project Manager"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Project 2",
-      "description": "This is project 2",
-      "status": true,
-      "users": [
-        {
-          "id": "4",
-          "name": "Chris Brown",
-          "role": "Data Scientist"
-        },
-        {
-          "id": "5",
-          "name": "Emily White",
-          "role": "UI/UX Designer"
-        },
-        {
-          "id": "6",
-          "name": "Robert Green",
-          "role": "DevOps Engineer"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "name": "Project 3",
-      "description": "This is project 3",
-      "status": false,
-      "users": [
-        {
-          "id": "7",
-          "name": "Tom Black",
-          "role": "Frontend Developer"
-        },
-        {
-          "id": "8",
-          "name": "Sophia Brown",
-          "role": "Backend Developer"
-        },
-        {
-          "id": "9",
-          "name": "Olivia White",
-          "role": "Project Manager"
-        },
-        {
-          "id": "1732294923724",
-          "name": "Yaswanth sai Valluru",
-          "role": "dev"
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Project 4",
-      "description": "This is project 4",
-      "status": true,
-      "users": [
-        {
-          "id": "10",
-          "name": "Jack Green",
-          "role": "Data Scientist"
-        },
-        {
-          "id": "11",
-          "name": "Liam Blue",
-          "role": "ML Engineer"
-        },
-        {
-          "id": "12",
-          "name": "Mia Grey",
-          "role": "Team Lead"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "name": "Project 5",
-      "description": "This is project 5",
-      "status": false,
-      "users": [
-        {
-          "id": "13",
-          "name": "Emma Yellow",
-          "role": "UI/UX Designer"
-        },
-        {
-          "id": "14",
-          "name": "Noah Red",
-          "role": "Full Stack Developer"
-        },
-        {
-          "id": "15",
-          "name": "Ava Violet",
-          "role": "Quality Analyst"
-        }
-      ]
-    },
-    {
-      "id": "6",
-      "name": "Project 6",
-      "description": "This is project 6",
-      "status": true,
-      "users": [
-        {
-          "id": "16",
-          "name": "James Orange",
-          "role": "Database Administrator"
-        },
-        {
-          "id": "17",
-          "name": "Isabella Pink",
-          "role": "DevOps Engineer"
-        },
-        {
-          "id": "18",
-          "name": "Lucas Cyan",
-          "role": "Product Manager"
         }
       ]
     },
     {
       "id": "7",
-      "name": "Project 7",
-      "description": "This is project 7",
+      "name": "Cloud Infrastructure Migration",
+      "description": "Migration of legacy systems to cloud-based infrastructure with enhanced security protocols",
       "status": false,
       "users": [
         {
           "id": "19",
-          "name": "Oliver Indigo",
+          "name": "Christopher Hayes",
           "role": "System Architect"
         },
         {
           "id": "20",
-          "name": "Amelia Gold",
+          "name": "Diana Martinez",
           "role": "Security Specialist"
         },
         {
           "id": "21",
-          "name": "Charlotte Silver",
+          "name": "Benjamin Foster",
           "role": "Technical Writer"
         }
       ]
     },
     {
-      "id": "8",
-      "name": "Project 8",
-      "description": "This is project 8",
-      "status": true,
+      "id": "1732459762490",
+      "name": "Mobile Payment Integration",
+      "description": "Implementation of secure mobile payment gateway with multiple provider support",
       "users": [
         {
-          "id": "22",
-          "name": "Benjamin White",
-          "role": "Mobile Developer"
-        },
-        {
-          "id": "23",
-          "name": "Evelyn Black",
-          "role": "Cloud Engineer"
-        },
-        {
-          "id": "24",
-          "name": "Harper Green",
-          "role": "AI Specialist"
+          "id": "1732459656491",
+          "name": "Michael Zhang",
+          "role": "Software Development Engineer"
         }
-      ]
+      ],
+      "status": false
+    },
+    {
+      "id": "1732606847809",
+      "name": "Data Center Optimization",
+      "description": "Performance optimization and capacity planning for regional data centers",
+      "users": [],
+      "status": false
+    },
+    {
+      "id": "5ba6",
+      "name": "AI Chatbot Development",
+      "description": "Development of AI-powered customer service chatbot with natural language processing",
+      "status": true,
+      "users": []
+    },
+    {
+      "id": "6bd7",
+      "name": "Sentiment analysis on twitter data",
+      "description": "Random Forest optimization",
+      "status": false,
+      "users": []
     }
   ],
   "Emails": [
     {
       "id": "1",
-      "email": "Yaswanth@gmail.com"
+      "email": "alexander.mitchell@enterprise.com"
     },
     {
       "id": "2",
-      "email": "yaswanthsai_valluru@srmap.edu.in"
+      "email": "sarah.thompson@enterprise.com"
     },
     {
       "id": "7381",
-      "email": "sathu@gmail.com"
+      "email": "rachel.anderson@enterprise.com"
     },
     {
       "id": "8305",
-      "email": "yaswanthsai_valluru@srmap.edu.in"
+      "email": "marcus.rodriguez@enterprise.com"
     },
     {
       "id": "bcf6",
-      "email": "hello@gmail.com"
+      "email": "diana.martinez@enterprise.com"
     }
   ]
 }

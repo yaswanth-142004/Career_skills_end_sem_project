@@ -1,10 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-// Import components
 import Navbar from "./Components/Navbar";
 import Content from "./Components/Content";
-import Description from "./Components/Description";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import Company from "./Components/Company";
@@ -14,7 +12,6 @@ import Email from "./Components/Email";
 import Login from "./Components/Login";
 import ProtectedRoute from "./Components/ProtectedRoute";
 
-// Layout Component
 const Layout = () => (
   <div className="bg-gray-900 text-gray-200 min-h-screen flex flex-col">
     <Navbar />

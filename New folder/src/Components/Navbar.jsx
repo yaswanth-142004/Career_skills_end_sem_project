@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className="text-white flex justify-between h-24 mx-auto px-4 max-h-[1240px] items-center">
       <div className="flex items-center">
         <h1 className="w-full text-3xl font-bold text-lime-600">React</h1>
-        <span className="ml-4 text-sm text-gray-300">
+        <span className="ml-4 text-sm text-gray-300 ">
           {userRole === 'admin' ? 'Admin' : 'Guest'}
         </span>
       </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
       <ul className='hidden md:flex '>
         <li className="p-4 border-b border-b-lime-700">
           <Link to='/resources'>
-            {userRole === 'admin' ? 'Change' : 'Resources'}
+            {userRole === 'admin' ? 'Projects' : 'Projects'}
           </Link>
         </li>
         <li className="p-4 border-b border-b-lime-700">
