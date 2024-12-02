@@ -47,14 +47,35 @@ Ensure the following are installed:
 
 ### File Structure 
   ```bash
+node_modules/
+public/
 src/
-├── components/
+├── Assets/               # Contains images and other static assets
+├── Components/           # All React components
+│   ├── About.jsx         # About page component
+│   ├── Change.jsx        # Admin interface for editing content
+│   ├── Company.jsx       # Company information page
+│   ├── Contact.jsx       # Contact information page
+│   ├── Content.jsx       # Core content display
+│   ├── Email.jsx         # Email functionality 
 │   ├── Login.jsx         # Handles user authentication
 │   ├── Navbar.jsx        # Dynamic navigation bar
-│   ├── Dashboard.jsx     # Displays the startup portfolio and CRUD options
+│   ├── ProjectCard.jsx   # Individual project card
+│   ├── ProjectList.jsx   # List of all project cards
+│   ├── ProjectModal.jsx  # Modal for viewing/editing project details
+│   ├── ProtectedRoute.jsx# Route protection for authentication
+│   ├── Resources.jsx     # Resources page
+├── App.css               # Application styles
 ├── App.jsx               # Main application entry point
 ├── index.css             # Tailwind CSS styles
-└── main.jsx              # React entry point
+├── main.jsx              # React entry point
+db.json                   # Mock database for JSON Server
+package.json              # Project dependencies and scripts
+postcss.config.js         # PostCSS configuration
+index.html                # Main HTML template
+.gitignore                # Git ignore rules
+eslint.config.js          # ESLint configuration
+
 
 
 
